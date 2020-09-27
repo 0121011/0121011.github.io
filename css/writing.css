@@ -1,0 +1,78 @@
+
+@import "common.css";
+
+html {
+  color: #262101;
+  background: #F2EFE9;
+}
+body{
+  font-family: 'Candara','함초롬바탕';
+}
+a {
+  color: #262101;
+}
+/* ----------------------------header */
+
+header {
+  display: inline-block;
+  /* background: pink; */
+  height: 95vh;
+}
+
+.Logo_div a img {
+  width: 100px;
+  height: auto;
+  margin: 40px;
+}
+
+.header_menu ul li {
+  margin: 10px;
+  margin-left: 40px;
+}
+.header_menu ul li a {
+  font-size: 14px;
+}
+
+/* -----------------------section */
+
+
+section {
+  display: inline-block;
+  text-align: center;
+}
+
+.writing_index {
+  width: 700px;
+  height: auto;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.writing_index ul {
+  margin: 50px;
+}
+
+.writing_index ul li {
+  margin: 10px;
+}
+.writing_index ul h4{
+  font-size: 16px;
+}
+
+.writing_index ul li a{
+  font-size: 14px;
+}
+
+
+
+/* -----------------------footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding-bottom: 20px;
+  background: #F2EFE9;
+}
